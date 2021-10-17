@@ -1,0 +1,442 @@
+/*import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+
+.navbar{
+  box-shadow: 1px 2px 5px #dacfcf;
+  width: 100%;
+}
+.container .main-menu .navbar .collapse .navbar-nav .nav-item a:hover{
+   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:yellowgreen;
+    background-clip: text;   
+}
+
+.container .main-menu .navbar .collapse .navbar-nav .nav-item a:active{
+  text-decoration: underline; 
+   
+}
+.center {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+  
+  }
+  .nav-link{ 
+    font-family:initial;
+    font-size: 19px;
+  }
+  li a.active1:after , li .linknav:after{
+    content:"";
+    display: block;
+    height: 3px;
+    background-color: rgb(5, 177, 48);
+    transition: width 0.5s;
+  }
+  li a.active1:after{
+    width:100%;
+  }
+  li .linknav:after{    
+    width:0;
+    height: 3px;
+  
+  }
+  li .linknav:hover:after{
+    width:100%;
+  }
+  /*ana sayfa text*/
+.title{
+ 
+  font-family: initial;   
+  }
+.title1{
+  font-family: initial;
+      margin-bottom: 250px;
+    /* animation:text 2s 1 */
+
+}
+.img1{
+  margin-bottom: 100px;
+
+}
+ /*ana sayfa text bitti*/
+.center1.container1.cc{
+   padding-top: 10px;
+}
+.center{
+    background:whitesmoke;
+}
+.c{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*ana sayfa*/
+.page{
+   margin-top: 80px;
+   margin-bottom: 25px;
+}
+/* p {
+     animation-duration: 3s; 
+     animation-name: slidein; 
+  } */
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width:300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+ 
+  @keyframes text {
+  0%{
+    
+    margin-bottom: 15px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: 15px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: 15px;
+  }
+}   
+
+.container .co{
+  margin-left: 400px;
+  background:ghostwhite;
+  border-radius:10px;
+}
+
+.container .table{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: 90px;
+  background:ghostwhite;
+}
+.prof{
+  margin-bottom: 70px;
+  margin-right: 3px;
+  background:beige;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.container .c2c{
+  margin-top: 50px;
+  background:beige;
+  border-radius: 12px;
+}
+.option{
+  font-size: 15px;
+}
+.formoption{
+  padding-left: 47%;
+}
+
+.scortext1{
+margin-top: 60px;
+
+  }
+
+/*profil button update*/
+.profabdate{
+ margin-top: 30px;
+ margin-left: 100px;
+}
+.bb1{
+  height: 150;
+  width: 3000;
+  border-radius:40px ;
+ }  
+.informstudent{
+  background:whitesmoke;
+  height: 200px;
+  width: 200px;
+}
+
+
+.bb2{
+  margin-left: 300px;
+  height: 40px;
+  width: 80px;
+
+margin-bottom: 20px;
+}
+
+.prof1{
+  margin-bottom: 70px;
+  margin-left: 300px;
+  margin-right: 3px;
+  background:beige;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+/*profil sayfası*/
+.Admininsertbutton{
+  margin-left: 30px;
+  margin-top:0px;
+
+}
+
+.adminsert1{
+  background-color:#000;
+  background:#F9F6F0;
+  margin-top: 10px;
+  border-radius: 20px;
+ 
+}
+/*end*/
+
+/*departments text names*/
+.bb1text{
+  margin-bottom:30px  ;
+  color:  rgb(9, 163, 48);;
+ font-family: initial;
+ background-color:rgba(240, 238, 238, 0.651);
+ position: relative;
+}
+/*profil ve puan*/
+.bbprofil{
+  width: 100px;
+  margin: 20px 0% ;
+  margin-top: 3px;
+  
+ 
+
+}
+.sigupstyle{
+  margin-top: 50px;
+  background: #FBE5E0;
+  border-radius: 40px;
+  
+}
+
+/**/
+.login-section{
+  height: 625px;
+  background-color: rgb(245, 241, 250);
+}
+.login-title{
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.register-title{
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  
+}
+.contentt{
+  display: block;
+  background-color: rgb(197, 238, 181);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px;
+  box-shadow: 1px 1px 3px 2px;
+}
+/* .t{
+  padding: 10px;
+  margin-top: 25px;
+} */
+.register-content{
+  width: 55%;
+  padding: 10px;
+  margin-top: 25px;
+}
+.login-content{
+  width: 600px;
+  height: 350px;
+}
+.reset-content{  
+  width: 620px;
+  height: 370px;
+  
+}
+.button-giris{
+  margin-top: 8px;
+  width: 25%;
+}
+
+@media screen and (max-width:768px) {
+  .contentt{
+      width: 80%;
+      height: 80%;
+      padding: 10px;
+      box-shadow: 1px 1px 3px 2px;
+
+  }
+  .titlee{
+      text-align: center;
+      padding: 10px;
+      font-size: 23px;
+  }
+  .register-content{
+      height: 105%;
+      width: 90%;
+      padding: 10px;
+      margin-top: 70px;
+      
+  }
+  .register-title{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      
+  }
+  .button-giris{
+      margin-top: 8px;
+      width: 40%;
+    }
+    
+}
+
+
+.style-label{
+  font-weight:500;
+  font-size: 20px;
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(8, 184, 60);
+}
+
+.text-field{
+  width: 85%;
+}
+
+/* اكواد الصفحة الرئيسية للموقع */
+.section{
+  padding: 40px 0;
+}
+.navbar{
+ box-shadow: 1px 2px 5px #dacfcf;
+ 
+}
+.section-title{
+ padding-top: 20px;
+ position: relative;
+ display: inline-block;
+}
+.section-title::after{
+ content: "";
+ display: block;
+ width: 70%;
+ height: 5px;
+ position: absolute;
+ bottom: -10px;
+ background-color: #0eb308;
+}
+.link{
+ color: chartreuse;
+}
+
+.about-item p{
+ padding: 25px 0;
+ font-size: 20px;
+}
+
+li a.active1:after , li a:after{
+ content:"";
+ display: block;
+ height: 3px;
+ background-color: rgb(5, 177, 48);
+ transition: width 0.5s;
+}
+li a.active1:after{
+ width:100%;
+}
+li a:after{    
+ width:0;
+ height: 3px;
+
+}
+li a:hover:after{
+ width:100%;
+}
+/* .about ,.connect{
+ height: 520px;
+} */
+.btn1{
+ width: 30%;
+}
+.mar{
+ margin: 0px 10px;
+}
+.home{
+ height: 620px;
+ background-size: cover;
+ background-color: aliceblue;
+ padding: 1px;
+}
+.home-item{
+ width: 65%;
+ margin:auto;
+ text-align: center;
+ margin-top: 15%;
+}
+.home-item h2{
+ color: rgb(35, 177, 7);
+ font-size: 40px; 
+}
+.home-item p{
+ color: rgb(12, 11, 11);
+ font-size: 20px;
+}
+/* .about{
+ background-color: slateblue;
+} */
+@media (max-width: 768px){
+ .home{
+     height: 500px;
+ }
+ .home-item{
+     width: 100%;
+ }
+ .about-img img{
+       height: 250px;
+ }
+ 
+}
+.connect{
+ background-color: rgb(250, 239, 237);
+}
+
+.input-style{
+
+background-color: sandybrown;
+
+}
+.section-connect{
+ width: 100%px;
+ height: 550px;
+ background-color: rgb(238, 238, 247);
+}
+.section-about{
+ width: 100%px;
+ height: 600px;
+
+}
+.input-connect{
+ display: block;
+ width: 450px;
+
+}
